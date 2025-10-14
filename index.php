@@ -12,12 +12,18 @@
     $Student1= new Student();
 
     $Student1->setName("Jenous"); 
-
     echo $Student1->getName();
+    echo "<br>";
 
-    $Student1->setid(007);
-    
+    $Student1->setid('007');
     echo $Student1->getid();
+    echo "<br>";
+
+
+    $Student1->setcourse('CSC');
+    echo $Student1->getcourse();
+    echo "<br>";
+
     ?>
     
 </body>
