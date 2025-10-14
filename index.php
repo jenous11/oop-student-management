@@ -10,9 +10,13 @@
     require_once 'Classes/Student.php';
 
     $Student1= new Student();
-    $Student1->setName("Jenous");
+
+    $Student1->setName("Jenous"); 
+
     echo $Student1->getName();
-    $Student1->setid('007');
+
+    $Student1->setid(007);
+    
     echo $Student1->getid();
     ?>
     
